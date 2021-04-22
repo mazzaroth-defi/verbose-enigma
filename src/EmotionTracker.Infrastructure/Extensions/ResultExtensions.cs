@@ -1,0 +1,3 @@
+﻿namespace EmotionTracker.Infrastructure.Extensions
+{
+}
