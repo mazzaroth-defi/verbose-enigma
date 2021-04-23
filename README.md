@@ -2,11 +2,18 @@
 Emotion Tracker built with blazor.
 
 # EF 
+## Getting Started
 1. CD to infrastructure project and run `dotnet add package Microsoft.EntityFrameworkCore.Design`.
-2. CD to `src/EmotionTracker/Server/` and run the command below.
+2. CD to `src/EmotionTracker/Server/` and run the commands below.
 
+## Add Migration
 ```
 dotnet ef database update --context BlazorHeroContext -v
+```
+
+## Update Database
+```
+dotnet ef migrations add <MigrationName> --context BlazorHeroContext -v
 ```
 
 # Emotion Wheel Description
