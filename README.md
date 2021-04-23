@@ -26,3 +26,75 @@ If you're looking to license or reproduce my Emotional Word Wheel (especially if
 Not for Profit use is encouraged, send me a message if you want the high resolution image. I'm keen to hear how people are using it!
 
 ![Alt text](https://i.imgur.com/tCWChf6.jpeg)
+
+
+# Emotions
+## Happy: 
+* Playful
+  * Aroused
+  * Cheeky
+  * Free
+  * Joyful
+  * Curious
+  * Inquisitive
+  * Successful
+  * Confident
+  * Respected
+  * Valued
+  * Courageous
+  * Creative
+  * Loving
+  * Thankful
+  * Sensitive
+  * Intimate
+  * Hopeful
+  * Inspired
+
+
+## Surprised
+## Bad
+## Fearful
+
+## Angry
+* Let Down
+  * Betrayed: 
+  * Resentful: 
+* Humiliated: 
+  * Disrespected: 
+  * Ridiculed: 
+* Bitter: 
+  * Indignant: 
+  * Violated
+* Mad
+  * Furious
+  * Jealous
+* Aggressive
+  * Provoked
+  * Hostile
+* Frustrated
+  * Infuriated
+  * Annoyed
+* Distant
+  * Withdrawn
+  * Numb
+* Critical
+  * Sceptical
+  * Dismissive
+
+## Disgusted: 
+* Disapproving
+  * Judgmental
+  * Embarrassed
+* Disappointed
+  * Appalled
+  * Revolted
+* Awful
+  * Nauseated
+  * Detestable
+* Repelled
+  * Horrified
+  * Hesitant
+
+
+
+## Sad
