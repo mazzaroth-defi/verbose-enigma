@@ -3,10 +3,20 @@ Emotion Tracker built with blazor.
 
 # EF 
 ## Getting Started
+### Mac
 1. CD to infrastructure project and run `dotnet add package Microsoft.EntityFrameworkCore.Design`.
 2. CD to `src/EmotionTracker/Server/` and run the commands below.
 
+### Windows
+1. `cd .\EmotionTracker.Infrastructure`
+2. Default Project: `EmotionTracer.Infrastructure`
+
+
 ## Add Migration
+### Windows (Works)
+1. `dotnet ef migrations add Add-Emotions --context BlazorHeroContext -v --startup-project ..\EmotionTracker\Server\EmotionTracker.Server.csproj --no-build`
+
+
 ### Mac (Work in Progress)
 This is what worked for BlazorBoilerplate, but it does not work on a Mac because microsoft is unable to retrieve project metadata.
 
