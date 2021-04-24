@@ -4,12 +4,14 @@ Emotion Tracker built with blazor.
 # EF 
 ## Getting Started
 ### Mac
-1. CD to infrastructure project and run `dotnet add package Microsoft.EntityFrameworkCore.Design`.
-2. CD to `src/EmotionTracker/Server/` and run the commands below.
+1. Open Terminal.
+2. CD to infrastructure project and run `dotnet add package Microsoft.EntityFrameworkCore.Design`.
+3. CD to `src/EmotionTracker/Server/` and run the commands below.
 
 ### Windows
-1. `cd .\EmotionTracker.Infrastructure`
-2. Default Project: `EmotionTracer.Infrastructure`
+1. Open Package Manager Console.
+2. `cd .\EmotionTracker.Infrastructure`
+3. Default Project: `EmotionTracer.Infrastructure`
 
 
 ## Add Migration
@@ -40,14 +42,11 @@ Command: dotnet ef migrations add Add-Emotion-Objects -c BlazorHeroContext -v --
 Error: Unable to retrieve project metadata. Ensure it's an SDK-style project. If you're using a custom BaseIntermediateOutputPath or MSBuildProjectExtensionsPath values, Use the --msbuildprojectextensionspath option.
 
 
+## Update Database
 ```
 dotnet ef database update --context BlazorHeroContext -v
 ```
 
-## Update Database
-```
-dotnet ef migrations add <MigrationName> --context BlazorHeroContext -v
-```
 
 # Emotion Wheel Description
 
