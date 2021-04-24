@@ -29,6 +29,12 @@ namespace EmotionTracker.Infrastructure.Contexts
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Document> Documents { get; set; }
 
+        #region Emotions
+        public DbSet<Emotion> Emotions { get; set; }
+        public DbSet<Session> Sessions { get; set; }
+        public DbSet<SessionEmotionEntry> SessionEmotionEntries { get; set; }
+        #endregion
+
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries<AuditableEntity>().ToList())
